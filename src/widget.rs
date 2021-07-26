@@ -2,8 +2,8 @@
 
 use libc::{c_void, c_int, c_char, c_float};
 
-use camera::Camera;
-use context::GPContext;
+use crate::camera::Camera;
+use crate::context::GPContext;
 
 #[repr(C)]
 pub struct CameraWidget {

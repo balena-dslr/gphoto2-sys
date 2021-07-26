@@ -2,9 +2,9 @@
 
 use libc::{c_int, c_char};
 
-use context::GPContext;
-use list::CameraList;
-use port::{GPPortInfoList, GPPortType};
+use crate::context::GPContext;
+use crate::list::CameraList;
+use crate::port::{GPPortInfoList, GPPortType};
 
 #[repr(C)]
 pub struct CameraAbilitiesList {

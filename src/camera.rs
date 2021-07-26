@@ -2,13 +2,13 @@
 
 use libc::{c_int,c_uint,c_char,c_void};
 
-use abilities::CameraAbilities;
-use context::GPContext;
-use file::{CameraFile, CameraFileType};
-use filesys::{CameraFileInfo, CameraStorageInformation};
-use list::CameraList;
-use port::GPPortInfo;
-use widget::CameraWidget;
+use crate::abilities::CameraAbilities;
+use crate::context::GPContext;
+use crate::file::{CameraFile, CameraFileType};
+use crate::filesys::{CameraFileInfo, CameraStorageInformation};
+use crate::list::CameraList;
+use crate::port::GPPortInfo;
+use crate::widget::CameraWidget;
 
 #[repr(C)]
 pub struct Camera {
