@@ -10,6 +10,7 @@ pub use crate::filesys::*;
 pub use crate::list::*;
 pub use crate::port::*;
 pub use crate::result::*;
+pub use crate::setting::*;
 pub use crate::version::*;
 pub use crate::widget::*;
 
@@ -21,5 +22,6 @@ mod filesys;
 mod list;
 mod port;
 mod result;
+mod setting;
 mod version;
 mod widget;
